@@ -495,10 +495,10 @@ If file does not exist and ASK in not nil it will ask user to proceed."
                    (actions
                     ("Find a resource"
                      ("m" "model"       projectile-elixir-find-module)
-                     ("p" "spec"        projectile-elixir-find-test))
+                     ("t" "test"        projectile-elixir-find-test))
                     ("Find an associated resource"
                      ("M" "module"      projectile-elixir-find-current-module)
-                     ("P" "spec"        projectile-elixir-find-current-test))))
+                     ("T" "test"        projectile-elixir-find-current-test))))
    :bind "") ;;accessible only from the main context menu
 
   (discover-add-context-menu
