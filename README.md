@@ -3,7 +3,7 @@
 ## Synopsis
 
 **Projectile Elixir** is a minor mode for working with the Elixir projects in GNU Emacs.
-Internally it is heavily based on [Projectile Rails](https://github.com/asok/projectile-rails)
+Internally it is basically a 'port' of [Projectile Rails](https://github.com/asok/projectile-rails) to Elixir,
 which in turn relies on [Projectile](https://github.com/bbatsov/projectile).
 
 It means that you can use Projectile's commands for greping (or acking) files, run tests, switch between projects, etc.
